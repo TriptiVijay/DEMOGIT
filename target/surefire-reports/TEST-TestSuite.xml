@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="14" failures="2" name="TestSuite" time="13.112" errors="0" skipped="12">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\oyo\OYO"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\oyo\OYO"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hi\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\hi\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10627082988786687887.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-17.0.4/bin/server;C:/Program Files/Java/jdk-17.0.4/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\NODEJS\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-17.0.4\bin;C:\Users\hi\Desktop\Automation Scripts\apache-maven-3.6.2-bin.zip\apache-maven-3.6.2\bin;;C:\Users\hi\AppData\Local\Microsoft\WindowsApps;C:\Users\hi\AppData\Roaming\npm;C:\WINDOWS\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\hi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="hi"/>
+    <property name="java.class.path" value="C:\Users\hi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\oyo\OYO\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="SetUp" time="9.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.orient.qa.base.TestBase.initilization(TestBase.java:72)
+	at com.orient.qa.testcases.HomePageTest.SetUp(HomePageTest.java:27)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@7382f612
+java.io.FileInputStream@2c6a3f77
+java.io.FileInputStream@62043840
+</system-out>
+    <system-err>Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 58323
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663567372.653][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+Sep 19, 2022 11:32:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Sep 19, 2022 11:32:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 103
+Sep 19, 2022 11:32:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 103
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 63760
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663567375.089][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+Sep 19, 2022 11:32:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Sep 19, 2022 11:32:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 103
+Sep 19, 2022 11:32:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 103
+</system-err>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="ValidateTextIfNoDataWithinGenteredDate" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="SetUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="Searchfunshouldworkfinewithnodata" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="SetUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="VerifyHomePageTitle" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.LoginPageTest" name="SetUp" time="4.1">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.orient.qa.base.TestBase.initilization(TestBase.java:72)
+	at com.orient.qa.testcases.LoginPageTest.SetUp(LoginPageTest.java:47)
+</failure>
+    <system-err>Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 61272
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663567377.384][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+Sep 19, 2022 11:32:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Sep 19, 2022 11:32:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 103
+Sep 19, 2022 11:32:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 103
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 51129
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663567379.104][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+Sep 19, 2022 11:32:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Sep 19, 2022 11:32:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 103
+Sep 19, 2022 11:32:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 103
+</system-err>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.LoginPageTest" name="Searchfunshouldworkfinewithnodata1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="SetUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="Searchfunshouldworkfinewithproperdata" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.LoginPageTest" name="SetUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.LoginPageTest" name="Searchfunshouldworkfinewithproperdata" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="SetUp" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.orient.qa.testcases.HomePageTest" name="Verifyuserabletoclickonviewbutton" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 12, Time elapsed: 13.419 sec <<< FAILURE!
+SetUp(com.orient.qa.testcases.HomePageTest)  Time elapsed: 9.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.orient.qa.base.TestBase.initilization(TestBase.java:72)
+	at com.orient.qa.testcases.HomePageTest.SetUp(HomePageTest.java:27)
+
+SetUp(com.orient.qa.testcases.LoginPageTest)  Time elapsed: 4.1 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.orient.qa.base.TestBase.initilization(TestBase.java:72)
+	at com.orient.qa.testcases.LoginPageTest.SetUp(LoginPageTest.java:47)
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.orient.qa.testcases.HomePageTest">
+        <methods>
+          <include name="ValidateTextIfNoDataWithinGenteredDate"/>
+          <include name="VerifyHomePageTitle"/>
+          <include name="Searchfunshouldworkfinewithproperdata"/>
+          <include name="Verifyuserabletoclickonviewbutton"/>
+          <include name="Searchfunshouldworkfinewithnodata"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.orient.qa.testcases.HomePageTest -->
+      <class name="com.orient.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="Searchfunshouldworkfinewithnodata1"/>
+          <include name="Searchfunshouldworkfinewithproperdata"/>
+        </methods>
+      </class> <!-- com.orient.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
